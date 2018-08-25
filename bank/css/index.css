@@ -1,0 +1,224 @@
+@charset "utf-8"
+    html {
+        font: 12px '宋体';
+    }
+    body#home{
+        background:#f2f2f2;
+        margin: 0;
+        padding: 0;
+    }
+    .top {
+        width: 977px;
+        height: 34px; 
+        margin: 0 auto;
+        background-color: none;
+        padding-top: 0;
+    }
+    .top .top_l a {
+        display: inline-block;
+        margin-left: 18px;
+    }
+    .top .top_l {
+        padding-left: 0px;
+        font-size: 12px;
+        line-height: 34px;
+    }
+    .top .top_r {
+        font-size: 12px;
+        line-height: 34px;
+        margin-right: 18px;    
+    }
+    .top .top_r p {
+        display: inline-block;
+    }
+    .top .top_r .top_f {
+        padding: 0;
+        margin-left: 48px;
+    }
+    .top .top_r .top_t s {
+        width: 16px;
+        height: 16px;
+        padding: 0px 22px 6px 0px;
+        background: url(../image/top_icon.png) no-repeat -5px -102px;
+    }
+    .top .top_r .top_f s {
+        width: 11px;
+        height: 17px;
+        padding: 0px 19px 6px 0px;
+        background: url(../image/top_icon.png) no-repeat -9px -142px;
+    }
+    .header {
+        width: 977px;
+        height: 152px;
+        border-radius: 5px;
+        border: 1px solid #DADADA;
+        background-color: white;
+        margin: 0 auto;
+    }
+    .header .logo li {
+        list-style-type: none;
+    }
+    .header .header_logo {
+        position: relative;
+        margin-left: 19px;
+        width: 942px;
+        height: 91px;
+        border-bottom: 3px solid #a71e32;
+    }
+    .header .header_logo a {
+        background: url(../image/logo.png) no-repeat;
+        display: block;
+        width: 175px;
+        height: 49px;
+    }
+    .header .logo {
+        position: absolute;
+        margin-top: 21px;
+    }
+    .header .header_info .phone {
+        font-size: 13px;
+        background-position: 0 4px;
+        float: left;
+        line-height: 29px;
+        margin: 0px;
+        color: #535353;
+    }
+    .header .header_info {
+        position: relative;
+    }
+    .header .header_info .phone {
+        position: absolute;
+        padding: 45px 0 0 350px;
+    }
+    .header .header_info .phone s {
+        width: 17px;
+        height: 17px;
+        padding: 0px 16px 0px 9px;
+        background: url(../image/top_icon.png) no-repeat -5px 0px;
+    }
+    .header .search_bar .search_ipt {
+        font-size: 13px;
+        width: 218px;
+        height: 27px;
+        vertical-align: middle;
+        background: none;
+        margin: 0;
+        padding: 0 0 0 4px;
+        float: right;  
+    }
+    .header .search_bar .search_ipt {
+        color: #535353;
+        margin-top: 46px;
+        margin-right: 33px;
+        border-radius: 3px;
+        border: 1px solid #DADADA;
+    }
+    .header .search_bar .search_btn {
+        background: url(../image/search1.png) no-repeat center 5px;
+        width: 28px;
+        height: 27px;
+        border: 0;
+        cursor: pointer;
+        padding: 0;
+        margin: 0;
+        float: right;
+        margin: 49px -218px;
+    }
+    .header .nav .menu li {
+        display: inline-block;
+        float: left;
+        margin: 0;
+        padding: 0; 
+        margin-left: 25px;  
+    }
+    .header .nav .menu li a{
+        padding-left: 30px;
+        line-height: 58px;
+    }
+    .header .nav .menu .first a {
+        color: #BB1E32;
+    }
+    .banner_box {
+        width: 977px;
+        height: 380px;
+        margin: 0 auto;
+        background-color: white;
+        margin-top: 15px;
+        border: 1px solid #DADADA;
+        border-radius: 5px;
+    }
+    .banner_box .banner_top {
+        width: 977px;
+        height: 288px; 
+    }
+    .banner_box .banner_top .btn_image a{
+        display: inline-block;
+        width: 977px;
+        height: 288px;
+        background: url(../image/banner_1.jpg) no-repeat;
+    }
+    .banner_box .banner_top .banner_index a {
+        display: block;
+        font-size: 12px;
+        padding-left: 41px;
+        margin-top: 23px;
+    }
+    .banner_box .banner_top .banner_index {
+        background-color: white;
+        width: 222px;
+        height: 188px;
+        border: 1px solid #DADADA;
+        border-radius: 5px;
+    }
+    .banner_box .banner_top {
+        position: relative;
+    }
+    .banner_box .banner_top .banner_index {
+        position: absolute;
+        margin: -293px 26px 0px 730px;
+    }
+    .banner_box .banner_bottom {
+        width: 977px;
+        height: 92px;
+        background-color: white;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+    .banner_box .banner_bottom .bottom_list {
+        display: block;
+        float: left;
+        width: 18.7%;
+        height: 72px;
+        border-right: 1px solid #dadada;
+        font-size: 13px;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .banner_box .banner_bottom .attend s {
+        width: 29px;
+        height: 25px;
+    }
+    .message {
+        width: 977px;
+        height: 190px;
+        margin: 0 auto;
+        margin-top: 10px;
+        border: 1px solid #dadada;
+        border-radius: 5px;
+    }
+    .msg1 {
+        width: 317px;
+        height: 190px;
+        background-color: orange;
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;
+        
+    }
+    .msg2 {
+        width: 660px;
+        height: 190px;
+        background-color: orchid;
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 5px;
+       
+    }
